@@ -1,0 +1,428 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website">
+    <title>Your Name | Web Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+                🌙
+            </button>
+
+            <button class="menu-btn" id="menu-btn" aria-label="Open menu">
+                ☰
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="hello">Hello, I'm</p>
+
+                    <h1>Shreya Paikine</h1>
+
+                    <h2>Web Developer</h2>
+
+                    <p class="hero-description">
+                        I create modern, responsive and user-friendly websites
+                        using HTML, CSS, JavaScript and modern web technologies.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">
+                            View My Work
+                        </a>
+
+                        <a href="#contact" class="btn secondary-btn">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="profile-circle">
+                        <span>👨‍💻</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>Get To Know Me</p>
+                    <h2>About Me</h2>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-image">
+                        <div class="about-card">
+                            <span>💻</span>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        <h3>I'm a passionate Web Developer</h3>
+
+                        <p>
+                            I am a passionate web developer who enjoys building
+                            beautiful and functional websites. I love learning
+                            new technologies and solving real-world problems
+                            through code.
+                        </p>
+
+                        <p>
+                            My goal is to create websites that are fast,
+                            responsive, accessible and easy to use.
+                        </p>
+
+                        <div class="about-info">
+                            <div>
+                                <strong>Name:</strong>
+                                <span>Shreya Paikine</span>
+                            </div>
+
+                            <div>
+                                <strong>Email:</strong>
+                                <span>paikineshreya@gmail.com</span>
+                            </div>
+
+                            <div>
+                                <strong>Location:</strong>
+                                <span>India</span>
+                            </div>
+
+                            <div>
+                                <strong>Freelance:</strong>
+                                <span>Available</span>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="btn primary-btn">
+                            Hire Me
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>What I Know</p>
+                    <h2>My Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <p>Semantic and accessible website structure.</p>
+
+                        <div class="progress">
+                            <div class="progress-bar html"></div>
+                        </div>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Responsive layouts and modern UI design.</p>
+
+                        <div class="progress">
+                            <div class="progress-bar css"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive and dynamic web applications.</p>
+
+                        <div class="progress">
+                            <div class="progress-bar javascript"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚛️</div>
+                        <h3>React</h3>
+                        <p>Component-based modern web applications.</p>
+
+                        <div class="progress">
+                            <div class="progress-bar react"></div>
+                        </div>
+                        <span>70%</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="section">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>My Recent Work</p>
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <div class="project-image project-one">
+                            🛒
+                        </div>
+
+                        <div class="project-content">
+                            <h3>E-Commerce Website</h3>
+
+                            <p>
+                                A responsive online shopping website with
+                                product cards, cart functionality and modern UI.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-image project-two">
+                            📋
+                        </div>
+
+                        <div class="project-content">
+                            <h3>Task Manager</h3>
+
+                            <p>
+                                A simple task management application that lets
+                                users create, complete and delete tasks.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+                        </div>
+                    </article>
+
+
+                    <article class="project-card">
+                        <div class="project-image project-three">
+                            🌤️
+                        </div>
+
+                        <div class="project-content">
+                            <h3>Weather App</h3>
+
+                            <p>
+                                A weather application that displays current
+                                weather information using an API.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>API</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+
+                <div class="section-title">
+                    <p>Let's Talk</p>
+                    <h2>Contact Me</h2>
+                </div>
+
+                <div class="contact-content">
+
+                    <div class="contact-info">
+
+                        <h3>Have a project in mind?</h3>
+
+                        <p>
+                            Feel free to contact me if you have a project,
+                            question or collaboration opportunity.
+                        </p>
+
+                        <div class="contact-item">
+                            <span>📧</span>
+                            <div>
+                                <strong>Email</strong>
+                                <p>paikineshreya@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📱</span>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+91 9373672046</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span>📍</span>
+                            <div>
+                                <strong>Location</strong>
+                                <p>India</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <form id="contact-form" class="contact-form">
+
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                required
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                rows="6"
+                                placeholder="Write your message..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn primary-btn">
+                            Send Message
+                        </button>
+
+                        <p id="form-message"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div>
+                <h3>Your Name</h3>
+                <p>Web Developer</p>
+            </div>
+
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Instagram">Instagram</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="year"></span> Your Name. All Rights Reserved.
+            </p>
+
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
